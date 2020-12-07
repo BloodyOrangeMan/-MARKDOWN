@@ -65,13 +65,13 @@
 
   </tr>
 </tbody>
-</table>
+
 
 
 <h2 id="2">2.感染病毒</h2>
 
 
-<table>
+
 
   <tr>
     <th colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></th>
@@ -96,13 +96,13 @@
     <td align="center"><img src="/img/capture_20201202233320851.bmp"></td>
   </tr>
 </tbody>
-</table>
+
 
 
 <h2 id="3">3.病毒行为分析</h2>
 
 
-<table>
+
 <thead>
   <tr>
     <th colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></th>
@@ -131,13 +131,13 @@
    <td align="center"><img src="/img/capture_20201202203447923.bmp"></td>
   </tr>
 </tbody>
-</table>
+
 
 
 <h2 id="4">4.查杀病毒</h2>
 
 
-<table>
+
 <thead>
   <tr>
     <th colspan="2"><b id="4.1">4.1使用火绒剑结束进程树</b></th>
@@ -169,11 +169,11 @@
    <td align="center"><img src="/img/capture_20201207193458639.bmp"></td>
   </tr>
 </tbody>
-</table>
+
 
 <h2 id="5">5.恢复原貌</h2>
 
-<table>
+
 <thead>
   <tr>
     <th colspan="2" align="center"><b id="5.1">5.1重启后检查病毒是否清除干净</b></th>
