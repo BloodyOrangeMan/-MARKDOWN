@@ -134,41 +134,66 @@
 </table>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3 id="3.1">3.1使用ProcessMonitor的Filter功能</h3>
-
-![9](/img/capture_20201207190435860.bmp)
-
-![10](/img/capture_20201202194553679.bmp)
-
-<h3 id="3.2">3.2导出为CSV文件</h3>
-
-这里我们先直接打开病毒，保存一次进程记录文件；再用管理员权限打开，记录一次，得到两个CSV文件。
-
-![11](/img/capture_20201202202526834.bmp)
-
-<h3 id="3.3">3.3在Excel里观察病毒行为</h3>
-
-将两表合并，并筛选调部份重复项后，发现病毒在获得管理员权限后，篡改了注册表，特别是开机启动项与任务管理器的权限。因此我们杀毒的重点应该在删除注册表里的可疑文件。
-
-![12](/img/capture_20201202203447923.bmp)
-
 <h2 id="4">4.查杀病毒</h2>
+
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2"><b id="4.1">4.1使用火绒剑结束进程树</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>因为该病毒是双进程病毒，所以得选择结束进程树才可彻底结束该病毒进程</td>
+    <td align="center"><img src="/img/capture_20201207193100587.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b id="4.2">4.2删除残存在电脑里的exe病毒文件与autorun文件</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center">在我们结束掉进程后，便可着手删掉病毒文件</td>
+    <td align="center"><img src="/img/capture_20201207193941006.bmp"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/capture_20201207194048517.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b id="4.3">4.3删除开机启动项</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center">在结束掉进程树,且删除掉残存的病毒文件后，我们便可将注册表里涉及病毒的文件删除。但发现有几个启动项删除不了，但这无伤大雅，因我们将其涉及的.exe文件已经全部删除。</td>
+    <td align="center"><img src="/img/capture_20201207193127224.bmp"></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/img/capture_20201207193458639.bmp"></td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h3 id="4.1">4.1使用火绒剑结束进程树</h3>
 
 ![13](/img/capture_20201207193100587.bmp)
