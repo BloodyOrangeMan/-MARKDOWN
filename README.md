@@ -2,6 +2,7 @@
 * [1.准备工作](#1)
    * [1.1所用到的文件](#1.1)
    * [1.2ProcessMonitor遇到的的问题](#1.2)
+       * [1.2.1解决办法](#1.2.1)
    * [1.3安装其他必要软件](#1.3)
 * [2.感染病毒](#2)
 
@@ -35,7 +36,7 @@
     <td align="center"><img src="img/capture_20201207184655598.bmp"></td>
   </tr>
   <tr>
-    <th colspan="2"><b id="1.1">1.1ProcessMonitor遇到的的问题</b></br></th>
+    <th colspan="2"><b id="1.2">1.2ProcessMonitor遇到的的问题</b></br></th>
   </tr>
   <tr>
     <td>由于本次实验下载的ISO镜像文件是从网络第三方下载，在运行ProcessMonitor时碰上了右侧问题</td>
@@ -43,7 +44,7 @@
 </tr>
   </tr>
   <tr>
-    <th colspan="2"><b>解决办法</b></th>
+    <th colspan="2"><b id="1.2.1">解决办法</b></th>
   </tr>
   <tr>
     <td rowspan="3">通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。</td>
