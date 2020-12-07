@@ -23,9 +23,9 @@
    * [5.2恢复被篡改的注册表](#5.2)
    * [5.3确认工作](#5.3)
 
-<th colspan="2"><b id="1">1.准备工作</b></th>
-<table>
 
+<table>
+<th colspan="2"><b id="1">1.准备工作</b></th>
   <tr>
     <th colspan="2"><b>一切的开始</b></br></th>
   </tr>
@@ -71,8 +71,6 @@
 <th colspan="2"><b id="2">2.感染病毒</b></th>
 
 
-
-
   <tr>
     <th colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></th>
   </tr>
@@ -100,9 +98,6 @@
 
 
 <th colspan="2"><b id="3">3.病毒行为分析</b></th>
-
-
-
 <thead>
   <tr>
     <th colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></th>
