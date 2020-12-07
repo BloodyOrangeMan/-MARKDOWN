@@ -28,7 +28,7 @@
 <table>
 <thead><th colspan="2"><b id="1">1.准备工作</b></th>
 </thead>
-<th colspan="2"><b id="1.1">1.1所用到的文件</b></th>
+<td colspan="2"><b id="1.1">1.1所用到的文件</b></td>
 
 <tbody>
   <tr>
@@ -36,7 +36,7 @@
     <td align="center"><img src="img/capture_20201207184655598.bmp"></td>
   </tr>
   <tr>
-    <th colspan="2"><b id="1.2">1.2ProcessMonitor遇到的的问题</b></br></th>
+    <td colspan="2"><b id="1.2">1.2ProcessMonitor遇到的的问题</b></br></td>
   </tr>
   <tr>
     <td>由于本次实验下载的ISO镜像文件是从网络第三方下载，在运行ProcessMonitor时碰上了右侧问题</td>
@@ -44,7 +44,7 @@
 </tr>
   </tr>
   <tr>
-    <th colspan="2"><b id="1.2.1">解决办法</b></th>
+    <td colspan="2"><b id="1.2.1">1.2.1解决办法</b></td>
   </tr>
   <tr>
     <td rowspan="3">通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。</td>
@@ -57,7 +57,7 @@
     <td align="center"><img src="/img/capture_20201202232739921.bmp"></td>
   </tr>
   <tr>
-    <th colspan="2"><b id="1.2">1.2安装其他必要软件</b></th>
+    <td colspan="2"><b id="1.2">1.2安装其他必要软件</b></td>
   </tr>
   <tr>
    <td align="center">将其他软件安装好后，万事俱备只欠东风。</td>
@@ -72,16 +72,16 @@
 
 
   <tr>
-    <th colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></th>
+    <td colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></td>
   </tr>
 
 <tbody>
   <tr>
-    <td>在课上实验发现，仅仅双击打开病毒，无法使电脑遭受攻击，所以应该以管理员权限运行</td>
+    <td align="center">在课上实验发现，仅仅双击打开病毒，无法使电脑遭受攻击，所以应该以管理员权限运行</td>
    <td align="center"><img src="/img/capture_20201207190331106.bmp"></td>
   </tr>
   <tr>
-    <th colspan="2"><b id="2.2">2.2简单查看中毒后的变化</b></th>
+    <td colspan="2"><b id="2.2">2.2简单查看中毒后的变化</b></td>
   </tr>
   <tr>
     <td rowspan="3">发现任务管理器与组织里的文件夹与搜索选项不可使用，而cmd里的tasklist仍然可以使用，并且C盘系统文件被隐藏。</td>
@@ -99,7 +99,7 @@
 
 <th colspan="2"><b id="3">3.病毒行为分析</b></th>
   <tr>
-    <th colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></th>
+    <td colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></td>
   </tr>
 <tbody>
   <tr>
@@ -132,16 +132,16 @@
 
 
   <tr>
-    <th colspan="2"><b id="4.1">4.1使用火绒剑结束进程树</b></th>
+    <td colspan="2"><b id="4.1">4.1使用火绒剑结束进程树</b></td>
   </tr>
 
 <tbody>
   <tr>
-    <td>因为该病毒是双进程病毒，所以得选择结束进程树才可彻底结束该病毒进程</td>
+    <td align="center">因为该病毒是双进程病毒，所以得选择结束进程树才可彻底结束该病毒进程</td>
     <td align="center"><img src="/img/capture_20201207193100587.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b id="4.2">4.2删除残存在电脑里的exe病毒文件与autorun文件</b></td>
+    <td colspan="2" ><b id="4.2">4.2删除残存在电脑里的exe病毒文件与autorun文件</b></td>
   </tr>
   <tr>
     <td rowspan="2" align="center">在我们结束掉进程后，便可着手删掉病毒文件</td>
@@ -151,7 +151,7 @@
     <td align="center"><img src="/img/capture_20201207194048517.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b id="4.3">4.3删除开机启动项</b></td>
+    <td colspan="2"><b id="4.3">4.3删除开机启动项</b></td>
   </tr>
   <tr>
     <td rowspan="2" align="center">在结束掉进程树,且删除掉残存的病毒文件后，我们便可将注册表里涉及病毒的文件删除。但发现有几个启动项删除不了，但这无伤大雅，因我们将其涉及的.exe文件已经全部删除。</td>
@@ -167,7 +167,7 @@
 
 
   <tr>
-    <th colspan="2" align="center"><b id="5.1">5.1重启后检查病毒是否清除干净</b></th>
+    <td colspan="2" ><b id="5.1">5.1重启后检查病毒是否清除干净</b></td>
   </tr>
 
 <tbody>
@@ -176,7 +176,7 @@
     <td align="center"><img src="/img/capture_20201207194603409.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b id="5.2">5.2恢复被篡改的注册表</b></td>
+    <td colspan="2" ><b id="5.2">5.2恢复被篡改的注册表</b></td>
   </tr>
   <tr>
     <td rowspan="3" align="center">找到注册表中的HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\
@@ -191,7 +191,7 @@
     <td align="center"><img src="/img/capture_20201207195022180.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><b id="5.3">5.3确认工作</b></td>
+    <td colspan="2"><b id="5.3">5.3确认工作</b></td>
   </tr>
   <tr>
     <td rowspan="4" align="center">检查任务管理器与文件夹与搜索选项是否恢复，两者都已恢复。
