@@ -57,11 +57,12 @@
 </tr>
 <tr rowspan=3>    
       <td>通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。</td>
-</tr>      
+</tr>
+<td>      
 <tr align="center"><img src="/img/capture_20201207185454926.bmp"></tr>
 <tr align="center"><img src="/img/capture_20201130152207372.bmp"></tr>
 <tr align="center"><img src="/img/capture_20201202232739921.bmp"></tr>
-</tr>
+</td>
 </table>
 <h3 id="1.2">1.2安装其他必要软件</h3>
 
