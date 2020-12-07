@@ -36,7 +36,7 @@
     <td align="center"><img src="img/capture_20201207184655598.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2"><b id="1.1">1.1ProcessMonitor遇到的的问题</b></br></td>
+    <th colspan="2"><b id="1.1">1.1ProcessMonitor遇到的的问题</b></br></th>
   </tr>
   <tr>
     <td>由于本次实验下载的ISO镜像文件是从网络第三方下载，在运行ProcessMonitor时碰上了右侧问题</td>
@@ -57,7 +57,7 @@
     <td align="center"><img src="/img/capture_20201202232739921.bmp"></td>
   </tr>
   <tr>
-    <th colspan="2"><b id="1.2"><b>1.2安装其他必要软件</b></th>
+    <th colspan="2"><b id="1.2">1.2安装其他必要软件</b></th>
   </tr>
   <tr>
    <td align="center">将其他软件安装好后，万事俱备只欠东风。</td>
@@ -67,20 +67,66 @@
 </tbody>
 </table>
 
+
 <h2 id="2">2.感染病毒</h2>
-<h3 id="2.1">2.1解压缩后以管理员权限运行</h3>
 
-![6](/img/capture_20201207190331106.bmp)
 
-<h3 id="2.2">简单查看中毒后的变化</h3>
+<table>
+<thead>
+  <tr>
+    <th colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>在课上实验发现，仅仅双击打开病毒，无法使电脑遭受攻击，所以应该以管理员权限运行</td>
+   <td align="center"><img src="/img/capture_20201207190331106.bmp"></td>
+  </tr>
+  <tr>
+    <th colspan="2"><b id="2.2">2.2简单查看中毒后的变化</b></th>
+  </tr>
+  <tr>
+    <td rowspan="3">发现任务管理器与组织里的文件夹与搜索选项不可使用，而cmd里的tasklist仍然可以使用，并且C盘系统文件被隐藏。</td>
+   <td align="center"><img src="/img/capture_20201202201047250.bmp"></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/img/capture_20201207134947508.bmp"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/capture_20201202233320851.bmp"></td>
+  </tr>
+</tbody>
+</table>
 
-发现任务管理器与组织里的文件夹与搜索选项不可使用，而cmd里的tasklist仍然可以使用，并且C盘系统文件被隐藏。
 
-![7](/img/capture_20201202201047250.bmp)
 
-![8](/img/capture_20201207134947508.bmp)
 
-![8+1](/img/capture_20201202233320851.bmp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2 id="3">3.病毒行为分析</h2>
 <h3 id="3.1">3.1使用ProcessMonitor的Filter功能</h3>
 
