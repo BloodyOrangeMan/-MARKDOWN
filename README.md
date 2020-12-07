@@ -25,11 +25,11 @@
 
 <h2 id="1">1.准备工作</h2>
 <table>
-<thead>
+
   <tr>
     <th colspan="2"><b>一切的开始</b></br></th>
   </tr>
-</thead>
+
 <tbody>
   <tr>
     <td>将本次实验所需的7zip、火绒剑、ProcessMonitor安装包及病毒压缩包通过虚拟机内只读共享文件夹的形式拷入虚拟机当中。</td>
@@ -72,11 +72,11 @@
 
 
 <table>
-<thead>
+
   <tr>
     <th colspan="2"><b id="2.1">2.1解压缩后以管理员权限运行</b></th>
   </tr>
-</thead>
+
 <tbody>
   <tr>
     <td>在课上实验发现，仅仅双击打开病毒，无法使电脑遭受攻击，所以应该以管理员权限运行</td>
