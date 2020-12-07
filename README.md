@@ -98,11 +98,9 @@
 
 
 <th colspan="2"><b id="3">3.病毒行为分析</b></th>
-<thead>
   <tr>
     <th colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></th>
   </tr>
-</thead>
 <tbody>
   <tr>
     <td rowspan="2" align="center">在设置好filter后，运行病毒文件，得到一次进程记录</td>
