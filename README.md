@@ -37,18 +37,31 @@
 </tr>
 </table>
 
+<table>
+<tr>
+      <td colspan=2 align="center">
+    <b id="1.1">1.1ProcessMonitor遇到的的问题</b></br>
+</td>
+</tr>
+<tr>    
+      <td>由于本次实验下载的ISO镜像文件是从网络第三方下载，在运行ProcessMonitor时碰上了右侧问题</td>
+<td align="center"><img src="/img/capture_20201202232701457.bmp"></td>
+</tr>
+</table>
 
-
-<h3 id="1.1">1.1ProcessMonitor遇到的的问题</h3>
-
-由于本次实验下载的ISO镜像文件是从网络第三方下载，在运行ProcessMonitor时碰上了如下问题：
-
-![2](/img/capture_20201202232701457.bmp)
-通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。
-
-![3](/img/capture_20201207185454926.bmp)
-![4](/img/capture_20201130152207372.bmp)
-![5](/img/capture_20201202232739921.bmp)
+<table>
+<tr>
+   <td colspan=2 align="center">
+    <b>解决</b></br>
+</td>
+</tr>
+<tr>    
+      <td>通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。</td>
+<td align="center"><img src="/img/capture_20201207185454926.bmp"></td>
+<td align="center"><img src="/img/capture_20201130152207372.bmp"></td>
+<td align="center"><img src="/img/capture_20201202232739921.bmp"></td>
+</tr>
+</table>
 <h3 id="1.2">1.2安装其他必要软件</h3>
 
 将其他软件安装好后，万事俱备只欠东风。
