@@ -26,9 +26,10 @@
 <h2 id="1">1.准备工作</h2>
 
 <table>
-   <tr>
-      <td>首先将本次实验所需的7zip、火绒剑、ProcessMonitor安装包及病毒压缩包通过虚拟机内只读共享文件夹的形式拷入虚拟机当中。</td>
+<tr>
+      <td>将本次实验所需的7zip、火绒剑、ProcessMonitor安装包及病毒压缩包通过虚拟机内只读共享文件夹的形式拷入虚拟机当中。</td>
 <td align="center"><img src="img/capture_20201207184655598.bmp"></td>
+</tr>
 </table>
 
 
