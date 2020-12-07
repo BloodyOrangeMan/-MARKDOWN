@@ -44,7 +44,7 @@
 </tr>
   </tr>
   <tr>
-    <td colspan="2">解决办法</td>
+    <th colspan="2"><b>解决办法</b></th>
   </tr>
   <tr>
     <td rowspan="3">通过使用搜索引擎得知，是该版本的Windows不支持SHA-2类型的证书签名请求，因此下载安装了更新包后，问题得以解决。</td>
@@ -57,7 +57,7 @@
     <td align="center"><img src="/img/capture_20201202232739921.bmp"></td>
   </tr>
   <tr>
-    <td colspan="2"><b id="1.2">1.2安装其他必要软件</b></td>
+    <th colspan="2"><b id="1.2"><b>1.2安装其他必要软件</b></th>
   </tr>
   <tr>
    <td align="center">将其他软件安装好后，万事俱备只欠东风。</td>
