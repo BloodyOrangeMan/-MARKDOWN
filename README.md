@@ -171,78 +171,56 @@
 </tbody>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3 id="4.1">4.1使用火绒剑结束进程树</h3>
-
-![13](/img/capture_20201207193100587.bmp)
-
-<h3 id="4.2">4.2删除残存在电脑里的exe病毒文件与autorun文件</h3>
-
-![14](/img/capture_20201207193941006.bmp)
-
-![14+1](/img/capture_20201207194048517.bmp)
-<h3 id="4.3">4.3删除开机启动项</h3>
-
-在结束掉进程树,且删除掉残存的病毒文件后，我们便可将注册表里涉及病毒的文件删除。
-
-![15](/img/capture_20201207193127224.bmp)
-
-但发现有几个启动项文件删除不了，但这无伤大雅，因我们将其涉及的.exe文件已经全部删除。
-
-![16](/img/capture_20201207193458639.bmp)
 <h2 id="5">5.恢复原貌</h2>
-<h3 id="5.1">5.1重启后检查病毒是否清除干净</h3>
-重启后打开火绒剑或用cmd执行tasklist命令，发现病毒程序已经不再进程当中,但文件搜索与任务管理器仍然无法使用，这是由于未将被篡改的注册表恢复的结果。
 
-![17](/img/capture_20201207194603409.bmp)
-
-<h3 id="5.2">5.2恢复被篡改的注册表</h3>
-找到注册表中的HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\
+<table>
+<thead>
+  <tr>
+    <th colspan="2" align="center"><b id="5.1">5.1重启后检查病毒是否清除干净</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>重启后打开火绒剑或用cmd执行tasklist命令，发现病毒程序已经不再进程当中,但文件搜索与任务管理器仍然无法使用，这是由于未将被篡改的注册表恢复的结果。</td>
+    <td align="center"><img src="/img/capture_20201207194603409.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b id="5.2">5.2恢复被篡改的注册表</b></td>
+  </tr>
+  <tr>
+    <td rowspan="3" align="center">找到注册表中的HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\
 恢复文件夹与搜索选项：修改Explorer下的NoFolderOptions的“字串符值”或者“DWORD值”改为0即可。
-恢复任务管理器：修改System下的 DisableTaskMgr 的“字串符值”或者“DWORD值”改为0即可。
-
-![18](/img/capture_20201207194945072.bmp)
-![19](/img/capture_20201207195004178.bmp)
-![20](/img/capture_20201207195022180.bmp)
-
-<h3 id="5.3">5.3确认工作</h3>
-检查任务管理器与文件夹与搜索选项是否恢复:
-
-![21](/img/capture_20201207150430268.bmp)
-![22](/img/capture_20201207142355554.bmp)
-
-两者都已恢复。
-
+恢复任务管理器：修改System下的 DisableTaskMgr 的“字串符值”或者“DWORD值”改为0即可。</td>
+    <td align="center"><img src="/img/capture_20201207194945072.bmp"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/capture_20201207195004178.bmp"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/capture_20201207195022180.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b id="5.3">5.3确认工作</b></td>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">检查任务管理器与文件夹与搜索选项是否恢复，两者都已恢复。
 再将C盘中被隐藏的文件恢复：
-将文件夹选项中，选择显示隐藏文件一项并应用。
+将文件夹选项中，选择显示隐藏文件一项并应用</td>
+    <td align="center"><img src="/img/capture_20201207150430268.bmp"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/img/capture_20201207142355554.bmp"></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/img/capture_20201207195957558.bmp"></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/img/capture_20201207200014780.bmp"></td>
+  </tr>
+</tbody>
+</table>
 
-![23](/img/capture_20201207195957558.bmp)
 
-刷新后看到回归的C盘系统文件夹。
-
-![24](/img/capture_20201207200014780.bmp)
 
 
 # 作业结束
