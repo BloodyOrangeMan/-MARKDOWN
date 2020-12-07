@@ -99,35 +99,57 @@
 </table>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h2 id="3">3.病毒行为分析</h2>
+
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2"><b id="3.1">3.1使用ProcessMonitor的Filter功能</b></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2" align="center">在设置好filter后，运行病毒文件，得到一次进程记录</td>
+     <td align="center"><img src="/img/capture_20201207190435860.bmp"></td>
+  </tr>
+  <tr>
+     <td align="center"><img src="/img/capture_20201202194553679.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b id="3.2">3.2导出为CSV文件</b></td>
+  </tr>
+  <tr>
+    <td align="center">上述步骤我们需操作两次，第一次直接打开病毒，保存一次进程记录文件；第二次再用管理员权限打开，再次记录，得到两个CSV文件。</td>
+    <td align="center"><img src="/img/capture_20201202202526834.bmp"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b id="3.3">3.3在Excel里观察病毒行为</b></td>
+  </tr>
+  <tr>
+   <td align="center">将两表合并，并筛选调部份重复项后，发现病毒在获得管理员权限后，篡改了注册表，特别是开机启动项与任务管理器的权限。因此我们杀毒的重点应该在删除注册表里的可疑文件。</td>
+   <td align="center"><img src="/img/capture_20201202203447923.bmp"></td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h3 id="3.1">3.1使用ProcessMonitor的Filter功能</h3>
 
 ![9](/img/capture_20201207190435860.bmp)
